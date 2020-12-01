@@ -11,8 +11,9 @@ import constants
 def main():
     # This function finds the sum of 2 numbers
 
-    # Input
     print("Guess the magic number (0-9)!")
+    
+    # Input
     magic_number = int(input("Please enter your guess: "))
 
     # Process
