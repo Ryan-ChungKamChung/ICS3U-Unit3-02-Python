@@ -20,8 +20,7 @@ def main():
     if magic_number == constants.MAGIC_NUMBER:
         # Output
         print("Nice! Your answer is right!")
-
-    elif magic_number != constants.MAGIC_NUMBER:
+    else:
         # Output
         print("Oops! Your answer is wrong!")
 
